@@ -1,0 +1,7 @@
+YOLOV3:
+  CFG: "./detector/YOLOv3/cfg/yolov3.cfg"
+  WEIGHT: "./detector/YOLOv3/weight/last.weights"
+  CLASS_NAMES: "./detector/YOLOv3/cfg/car.names"
+
+  SCORE_THRESH: 0.4
+  NMS_THRESH: 0.3
