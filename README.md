@@ -9,20 +9,14 @@ using pythorch , deepsort and veri datasets to train your own tracking model
 5. cd data
 6. use move2folder.py to get the satisfactory structure(train & val) 
 7. this movement may have some problems,I did not modify it.you only need to move it manually to val or train.
-8. the structure: 
-data
-
-——train
-
-————0001
-
-——————0001xxx.jpg
-
-——val
-
-————0001
-
-——————0001xxx.jpg
+8. the structure: \
+    data\
+    —train\
+    ——0001\
+    ———0001xxx.jpg\
+    —val\
+    ——0001\
+    ———0001xxx.jpg
 
 
 ## my modification 
